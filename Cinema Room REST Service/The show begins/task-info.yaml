@@ -119,12 +119,6 @@ files:
 - name: src/cinema/repository/CinemaRepository.java
   visible: true
   learner_created: true
-- name: src/cinema/dataLayer/Seat.java
-  visible: true
-  learner_created: true
-- name: src/cinema/dataLayer/Cinema.java
-  visible: true
-  learner_created: true
 - name: src/cinema/model/Seat.java
   visible: true
   learner_created: true
@@ -134,6 +128,691 @@ files:
 feedback_link: https://hyperskill.org/learn/step/13375#comment
 status: Failed
 feedback:
-  message: Compilation Failed
-  time: Thu, 15 Sep 2022 16:09:28 UTC
+  message: |-
+    Wrong answer in test #2
+
+    The JSON object at key available_seats has an incorrect length: should be equal to 81, found 162
+
+    Full JSON:
+    {
+      &quot;total_rows&quot;: 9,
+      &quot;total_columns&quot;: 9,
+      &quot;available_seats&quot;: [
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 1,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 2,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 3,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 4,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 5,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 6,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 7,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 8,
+          &quot;column&quot;: 9
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 1
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 2
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 3
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 4
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 5
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 6
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 7
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 8
+        },
+        {
+          &quot;row&quot;: 9,
+          &quot;column&quot;: 9
+        }
+      ]
+    }
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    .   ____          _            __ _ _
+     /\\ / ___&#39;_ __ _ _(_)_ __  __ _ \ \ \ \
+    ( ( )\___ | &#39;_ | &#39;_| | &#39;_ \/ _` | \ \ \ \
+     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+      &#39;  |____| .__|_| |_|_| |_\__, | / / / /
+     =========|_|==============|___/=/_/_/_/
+     :: Spring Boot ::                (v2.5.6)
+
+    2022-09-21 11:18:06.007  INFO 55684 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 55684 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
+    2022-09-21 11:18:06.013  INFO 55684 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
+    2022-09-21 11:18:07.911  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+    2022-09-21 11:18:07.953  INFO 55684 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+    2022-09-21 11:18:07.954  INFO 55684 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+    2022-09-21 11:18:08.089  INFO 55684 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+    2022-09-21 11:18:08.090  INFO 55684 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1989 ms
+    2022-09-21 11:18:09.066  INFO 55684 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
+    2022-09-21 11:18:09.128  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path &#39;&#39;
+    2022-09-21 11:18:09.148  INFO 55684 --- [    Test worker] cinema.Main                              : Started Main in 3.655 seconds (JVM running for 4.671)
+    2022-09-21 11:18:09.779  INFO 55684 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
+    2022-09-21 11:18:09.780  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
+    2022-09-21 11:18:09.782  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+  time: Wed, 21 Sep 2022 09:18:10 UTC
 record: -1

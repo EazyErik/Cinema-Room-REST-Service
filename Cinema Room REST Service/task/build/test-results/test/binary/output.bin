@@ -9,30 +9,18 @@
 ) =========|_|==============|___/=/_/_/_/
 + :: Spring Boot ::                (v2.5.6)
 
-ù2022-09-15 17:13:37.031  INFO 13807 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 13807 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
-¶2022-09-15 17:13:37.037  INFO 13807 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
-ì2022-09-15 17:13:39.037  INFO 13807 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-2022-09-15 17:13:39.073  INFO 13807 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-ï2022-09-15 17:13:39.074  INFO 13807 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-ò2022-09-15 17:13:39.223  INFO 13807 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-•2022-09-15 17:13:39.223  INFO 13807 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2095 ms
-õ2022-09-15 17:13:40.144  INFO 13807 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-Ñ2022-09-15 17:13:40.186  WARN 13807 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 28852 is already in use
-2022-09-15 17:13:40.194  INFO 13807 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-f2022-09-15 17:13:40.221  INFO 13807 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
-
-rError starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-f2022-09-15 17:13:40.248 ERROR 13807 --- [    Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-;Web server failed to start. Port 28852 was already in use.
-
-Action:
-
-vIdentify and stop the process that's listening on port 28852 or configure this application to listen on another port.
-
+ù2022-09-21 11:18:06.007  INFO 55684 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 55684 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
+¶2022-09-21 11:18:06.013  INFO 55684 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
+ì2022-09-21 11:18:07.911  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-09-21 11:18:07.953  INFO 55684 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ï2022-09-21 11:18:07.954  INFO 55684 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ò2022-09-21 11:18:08.089  INFO 55684 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+•2022-09-21 11:18:08.090  INFO 55684 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1989 ms
+õ2022-09-21 11:18:09.066  INFO 55684 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¢2022-09-21 11:18:09.128  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+õ2022-09-21 11:18:09.148  INFO 55684 --- [    Test worker] cinema.Main                              : Started Main in 3.655 seconds (JVM running for 4.671)
+ü2022-09-21 11:18:09.779  INFO 55684 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+é2022-09-21 11:18:09.780  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ü2022-09-21 11:18:09.782  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+[1;31m
+Start test 2[0m

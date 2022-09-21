@@ -8,16 +8,20 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-@RequiredArgsConstructor
+
 public class CinemaService {
 
     private final CinemaRepository cinemaRepository;
+
+    public CinemaService(CinemaRepository cinemaRepository) {
+        this.cinemaRepository = cinemaRepository;
+    }
 
     public Cinema getCinemaInfos() {
         return new Cinema(
                 cinemaRepository.getTotal_rows(),
                 cinemaRepository.getTotal_columns(),
-                cinemaRepository.getAvailable_seats()
+                cinemaRepository.getAllSeats()
         );
     }
 }

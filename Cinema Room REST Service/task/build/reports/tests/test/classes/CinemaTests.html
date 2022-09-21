@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">4.145s</div>
+<div class="counter">4.802s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,26 +76,665 @@
 <a name="start"></a>
 <h3 class="failures">start</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Exception in test #1
+<pre>java.lang.AssertionError: Wrong answer in test #2
 
-Cannot start Spring application
+The JSON object at key available_seats has an incorrect length: should be equal to 81, found 162
 
-org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 28852 is already in use
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at cinema.Main.main(Main.java:9)
+Full JSON:
+{
+  &quot;total_rows&quot;: 9,
+  &quot;total_columns&quot;: 9,
+  &quot;available_seats&quot;: [
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 9
+    }
+  ]
+}
 
 Please find below the output of your program during this failed test.
 
@@ -109,32 +748,19 @@ Please find below the output of your program during this failed test.
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.6)
 
-2022-09-15 17:13:37.031  INFO 13807 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 13807 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
-2022-09-15 17:13:37.037  INFO 13807 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
-2022-09-15 17:13:39.037  INFO 13807 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-2022-09-15 17:13:39.073  INFO 13807 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-09-15 17:13:39.074  INFO 13807 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-09-15 17:13:39.223  INFO 13807 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-09-15 17:13:39.223  INFO 13807 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2095 ms
-2022-09-15 17:13:40.144  INFO 13807 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-09-15 17:13:40.186  WARN 13807 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 28852 is already in use
-2022-09-15 17:13:40.194  INFO 13807 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-09-15 17:13:40.221  INFO 13807 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-09-15 17:13:40.248 ERROR 13807 --- [    Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 28852 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 28852 or configure this application to listen on another port.
+2022-09-21 11:18:06.007  INFO 55684 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 55684 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
+2022-09-21 11:18:06.013  INFO 55684 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
+2022-09-21 11:18:07.911  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-09-21 11:18:07.953  INFO 55684 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-21 11:18:07.954  INFO 55684 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-09-21 11:18:08.089  INFO 55684 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-21 11:18:08.090  INFO 55684 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1989 ms
+2022-09-21 11:18:09.066  INFO 55684 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-21 11:18:09.128  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+2022-09-21 11:18:09.148  INFO 55684 --- [    Test worker] cinema.Main                              : Started Main in 3.655 seconds (JVM running for 4.671)
+2022-09-21 11:18:09.779  INFO 55684 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:18:09.780  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:18:09.782  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:155)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -197,7 +823,7 @@ Identify and stop the process that's listening on port 28852 or configure this a
 </thead>
 <tr>
 <td class="failures">start</td>
-<td class="failures">4.145s</td>
+<td class="failures">4.802s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -216,33 +842,21 @@ Start test 1?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.6)
 
-2022-09-15 17:13:37.031  INFO 13807 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 13807 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
-2022-09-15 17:13:37.037  INFO 13807 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
-2022-09-15 17:13:39.037  INFO 13807 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
-2022-09-15 17:13:39.073  INFO 13807 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-09-15 17:13:39.074  INFO 13807 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-09-15 17:13:39.223  INFO 13807 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-09-15 17:13:39.223  INFO 13807 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2095 ms
-2022-09-15 17:13:40.144  INFO 13807 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-09-15 17:13:40.186  WARN 13807 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 28852 is already in use
-2022-09-15 17:13:40.194  INFO 13807 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-09-15 17:13:40.221  INFO 13807 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-09-15 17:13:40.248 ERROR 13807 --- [    Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 28852 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 28852 or configure this application to listen on another port.
-
+2022-09-21 11:18:06.007  INFO 55684 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.4.1 on eriks-MacBook-Air-2.local with PID 55684 (started by erikbusch in /Users/erikbusch/Desktop/Cinema Room REST Service/Cinema Room REST Service/task)
+2022-09-21 11:18:06.013  INFO 55684 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
+2022-09-21 11:18:07.911  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-09-21 11:18:07.953  INFO 55684 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-21 11:18:07.954  INFO 55684 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-09-21 11:18:08.089  INFO 55684 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-21 11:18:08.090  INFO 55684 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1989 ms
+2022-09-21 11:18:09.066  INFO 55684 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-21 11:18:09.128  INFO 55684 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+2022-09-21 11:18:09.148  INFO 55684 --- [    Test worker] cinema.Main                              : Started Main in 3.655 seconds (JVM running for 4.671)
+2022-09-21 11:18:09.779  INFO 55684 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:18:09.780  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:18:09.782  INFO 55684 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+?[1;31m
+Start test 2?[0m
 </pre>
 </span>
 </div>
@@ -254,7 +868,7 @@ Identify and stop the process that's listening on port 28852 or configure this a
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.3</a> at 15.09.2022, 17:13:40</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 21.09.2022, 11:18:10</p>
 </div>
 </div>
 </body>
