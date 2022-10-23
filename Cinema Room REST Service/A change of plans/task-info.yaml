@@ -669,6 +669,24 @@ files:
 
 
   learner_created: true
+- name: src/cinema/model/TicketWithToken.java
+  visible: true
+  learner_created: true
+- name: src/cinema/model/SoldTicket.java
+  visible: true
+  learner_created: true
+- name: src/cinema/model/TokenForTicket.java
+  visible: true
+  learner_created: true
+- name: src/cinema/model/SeatDTO.java
+  visible: true
+  learner_created: true
+- name: src/cinema/model/CinemaDTO.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13377#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 23 Oct 2022 12:50:59 UTC
+record: 3

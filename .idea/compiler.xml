@@ -12,6 +12,33 @@
       <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-test-results.main" target="16" />
       <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-tmp.main" target="16" />
       <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Addresses.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-compareTo.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Comparing_objects.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Implement_Comparable.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Implement_compareTo_method.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Implement_comparing_by_additional_fields.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Natural_ordering.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Rewrite_compareTo_method.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Rules.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Theory.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Comparable-Value_class.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Assertion.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Best_practices.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Development_approach.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Find_the_error.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Log_events.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Proper_tools.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Debugging_techniques-Theory.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Accessing_fields.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Army.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Change_identities.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Find_reference_types.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Immutability.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Null_or_not.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-Theory.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-What_is_my_age.main" target="16" />
+      <module name="Cinema_Room_REST_Service.Topics-Objects-What_is_the_value_of_a_field.main" target="16" />
       <module name="Cinema_Room_REST_Service.util.main" target="16" />
     </bytecodeTargetLevel>
   </component>

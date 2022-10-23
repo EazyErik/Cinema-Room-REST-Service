@@ -1,10 +1,26 @@
 package cinema.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Ticket {
 
     int row;
     int column;
     int price;
+
+
+
+
+
+    boolean isBooked = false;
+    @JsonIgnore
+    public boolean isBooked() {
+        return isBooked;
+    }
+
+    public void setBooked(boolean booked) {
+        isBooked = booked;
+    }
 
     public int getRow() {
         return row;
@@ -35,6 +51,9 @@ public class Ticket {
         this.column = column;
         this.price = price;
     }
+
+
+
 
     public Ticket() {
     }

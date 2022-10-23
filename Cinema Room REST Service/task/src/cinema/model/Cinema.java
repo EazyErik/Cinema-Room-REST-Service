@@ -7,7 +7,7 @@ public class Cinema{
 
     private int total_rows;
     private int total_columns;
-    private List<Seat> available_seats;
+    private List<TicketWithToken> available_seats;
 
 
 
@@ -15,7 +15,7 @@ public class Cinema{
     public Cinema() {
     }
 
-    public Cinema(int total_rows, int total_columns, List<Seat> available_seats) {
+    public Cinema(int total_rows, int total_columns, List<TicketWithToken> available_seats) {
         this.total_rows = total_rows;
         this.total_columns = total_columns;
         this.available_seats = available_seats;
@@ -37,11 +37,11 @@ public class Cinema{
         this.total_columns = total_columns;
     }
 
-    public List<Seat> getAvailable_seats() {
+    public List<TicketWithToken> getAvailable_seats() {
         return available_seats;
     }
 
-    public void setAvailable_seats(List<Seat> available_seats) {
+    public void setAvailable_seats(List<TicketWithToken> available_seats) {
         this.available_seats = available_seats;
     }
 }

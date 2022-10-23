@@ -1,14 +1,13 @@
 package cinema.controller;
 
 
-import cinema.model.Cinema;
-import cinema.model.ErrorMesssage;
-import cinema.model.Seat;
-import cinema.model.Ticket;
+import cinema.model.*;
 import cinema.service.CinemaService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Objects;
 
 @RestController
 @RequestMapping()
@@ -21,8 +20,8 @@ public class CinemaController {
     }
 
     @GetMapping("/seats")
-    public Cinema getCinemaInfos() {
-        return cinemaService.getCinemaInfos();
+    public CinemaDTO getCinemaInfos() {
+        return cinemaService.getCinema();
 
     }
 
@@ -43,4 +42,40 @@ public class CinemaController {
             return new ResponseEntity<>(response, HttpStatus.OK);
         }
     }
+
+    @PostMapping("/return")
+
+    public Object returnedTicket(@RequestBody TokenForTicket token) {
+        Object response;
+
+
+
+        if(cinemaService.isFoundByToken(token.getToken())){
+            response = cinemaService.findTicketByToken(token.getToken());
+
+            return  new ResponseEntity<>(response, HttpStatus.OK);
+
+        }else{
+            response = new ErrorMesssage("Wrong token!");
+            return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+
+
+        }
+
+    }
+    @PostMapping("/stats")
+    public Object showStatistics(@RequestParam(required = false) String password){
+        Object response;
+        if(password == null ||Objects.isNull(password) || !cinemaService.checkPassword(password)){
+            response = new ErrorMesssage("The password is wrong!");
+            return new ResponseEntity<>(response,HttpStatus.UNAUTHORIZED);
+
+        }
+         return cinemaService.showStatistics();
+
+
+    }
+
+
+
 }

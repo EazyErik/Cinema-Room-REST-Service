@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/539847/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Tue, 13 Sep 2022 09:08:32 UTC
+update_date: Sun, 23 Oct 2022 14:13:57 UTC
 stages:
 - id: 945
   step: 13375
@@ -13,10 +13,10 @@ stages:
   is_completed: true
 - id: 947
   step: 13377
-  is_completed: false
+  is_completed: true
 - id: 948
   step: 13378
-  is_completed: false
+  is_completed: true
 topics:
   0:
   - title: Write, compile, and run
@@ -180,8 +180,18 @@ topics:
     theory_id: 3514
   - title: String
     theory_id: 3523
+  - title: Errors in programs
+    theory_id: 3536
+  - title: What is an exception
+    theory_id: 3497
   - title: Package
     theory_id: 3621
+  - title: Hierarchy of exceptions
+    theory_id: 3570
+  - title: Introduction to logging
+    theory_id: 5538
+  - title: Debugging techniques
+    theory_id: 13775
   - title: Defining classes
     theory_id: 3618
   - title: Constructor
@@ -196,3 +206,5 @@ topics:
     theory_id: 3583
   - title: Multiple constructors
     theory_id: 3538
+  - title: The keyword super
+    theory_id: 3588
